@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+    color: rgb(168, 165, 165);
+    font-family: Roboto, Arial, sans-serif;
+}
+main{
+    margin-left: 148px;
+    margin-right: 148px;
+}   
+/* body{
+    max-width: 500px;
+    margin: auto;
+}  */
+body{
+    padding-top: 70px;
+}
+header{
+    height: 85px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* text-align: center; */
+    z-index: 100; 
+    margin-left: 150px;
+    margin-right: 1000px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+header.scrolled{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.203);
+}
+header img{
+    width: 270px;
+    /* position: absolute; */
+}
+
+header nav{
+    
+}
+header nav ul{
+    list-style: none;
+    width: 100%;
+}
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+header nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+header nav ul li a:hover {
+    color: #00b39b;
+}
+header nav ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+header nav ul li ul.dropdown li{
+    display: block;
+}
+header nav ul li ul.dropdown li:hover{
+    background: rgba(0, 0, 0, 0.18);
+
+}
+header nav ul li:hover ul.dropdown{
+    display: block;
+}
+header nav ul li a.active{
+    color: #00b39b;
+}
+.header-nav{
+    
+}
+.menu-btn i{
+    color: #00b39b;
+    font-size: 22px;
+}
+.menu-btn{
+    display: none;
+}
+@media (max-width: 480px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: flex;
+    }
+}
+
+
+
+/* About us */
+#aboutus{
+    margin-top: 85px;
+}
+.title-section h1{
+    color: #00b39b;
+    font-size: 30px;
+    text-align: center;
+    margin: 1em 0;
+    letter-spacing: -0.3px;
+    font-family: Arial, sans-serif;
+}
+.about-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-section img{
+    width: 40px;
+    height: auto;
+}
+.paragraph-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px;
+}
+.paragraph-section p{
+    line-height: 30px;
+    color: rgb(100, 98, 98);
+}
+.paragraph-1{
+    margin-right: 15px;
+}
+/* Grid templated */
+.grid-templates{
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+}
+
+/* Footer */
+footer{
+    margin-top: 1000px;
+}

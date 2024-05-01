@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docplanner Group</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/e405f872e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+            <a href="#"><img src="images/logo-default-group-en.svg" class="header-logo"></a>
+        <nav>
+            <ul class="header-nav">
+                <li class="hideOnMobile"><a href="#aboutus" class="active">About us</a></li>
+                <li class="hideOnMobile"><a href="#career">Career</a></li>
+                <li class="hideOnMobile">
+                    <a href="#">Departments</a>
+                    <ul class="dropdown">
+                        <li> <a href="#">Marketing PR</a></li>
+                        <li> <a href="#">Customer Success & Sales</a></li>
+                        <li> <a href="#">IT, Product, Data</a></li>
+                        <li> <a href="#">Finance & Administration</a></li>
+                        <li> <a href="#">HR & more</a></li>
+                    </ul>
+                </li>
+                <li class="menu-btn" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+
+         
+
+            <!-- <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="#aboutus" class="active">About us</a></li>
+                <li><a href="#career">Career</a></li>
+                <li>
+                    <a href="#">Departments</a>
+                    <ul class="dropdown">
+                        <li> <a href="#">Marketing PR</a></li>
+                        <li> <a href="#">Customer Success & Sales</a></li>
+                        <li> <a href="#">IT, Product, Data</a></li>
+                        <li> <a href="#">Finance & Administration</a></li>
+                        <li> <a href="#">HR & more</a></li>
+                    </ul>
+                </li>
+            </ul>    -->
+        </nav>
+    </header>
+    <main>
+        <div id="aboutus">
+            <div class="title-section">
+                <div class="about-logo">
+                    <img src="images/sygnet@2x.png">
+                </div>
+                <h1>Making the healthcare experience more human</h1>
+            </div>
+            <div class="paragraph-section">
+                <div class="paragraph-1">
+                    <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+                </div>
+                <div class="paragraph-2">
+                    <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+                </div>     
+            </div> 
+        </div>
+
+        <div id="grid-templates">
+            <div class="patients">
+                <h1>For patients</h2>
+                <p>Find a doctor,book a visit and solve any health-related doubt</p>
+                <a href="#">Choose country.</a>
+            </div>
+            <div class="doctors">
+                <h1>For doctors</h2>
+                <p>Save time managing visits and cut no-shows by half</p>
+                <a href="#">Choose country.</a>
+            </div>
+            <div class="clinics">
+                <h1>For clinics</h2>
+                <p>For clinics
+                    Deliver an exceptional patient experience in your clinic</p>
+                <a href="#">2 to 20 specialists</a>    
+                <a href="#">Choose country.</a>
+            </div>
+        </div>
+
+    </main>
+    
+<footer>
+    <p>We are leaders in 13 countries: <a href="#">Poland</a>, <a href="#">Turkey</a>, <a href="#">Spain</a>, <a href="#">Italy</a>, <a href="#">Germany</a>, <a href="#">Czech Republic</a>, <a href="#">Portugal</a>, <a href="#">Mexico</a>, <a href="#">Colombia</a>, <a href="#">Brazil</a>, <a href="#">Argentina</a>, <a href="#">Peru</a> and <a href="#">Chile</a> </p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
